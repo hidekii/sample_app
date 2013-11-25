@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.14'
+gem 'pg', '0.12.2'
 
  group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -19,6 +20,6 @@ gem 'rails', '3.2.14'
    gem 'capybara', '1.1.2'
   end
 
-  group :production do
-   gem 'pg', '0.12.2'
-  end
+#  group :production do
+#   gem 'pg', '0.12.2'
+#  end
